@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
@@ -26,7 +27,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#Nationals">Nationals</a></li>
             <li><a href="#Register Now">Register Now</a></li>
-            <li><a href="#Contact Us">Contact Us</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
           </ul>
         </div>
 
@@ -54,6 +55,7 @@
 
     <section class="about" id="about">
       <h1>About</h1>
+      <div class="underline"></div>
       <div class="cols">
         <div class="leftcol">
           <img src="img/background.png" alt="" />
@@ -125,7 +127,7 @@
     </section>
 
     <!-- Delegates Section  -->
-    <section class="black">
+    <section class="black Delegates">
       <h2 class="heading1">Our Delegates</h2>
       <div class="underline"></div>
       <div class="container">
@@ -177,7 +179,7 @@
       <h2 class="heading1">Event Timeline</h2>
       <div class="underline"></div>
       <div class="container bg">
-        <div class="flex-center">
+        <div class="flex-center top">
           <div class="date down">
             <h1>17 July 2019</h1>
             <h1>Upstart Edge</h1>
@@ -200,7 +202,7 @@
           </div>
         </div>
         <img src="img/timeline.png" alt="" />
-        <div class="flex-center">
+        <div class="flex-center bottom">
           <div class="date up">
             <h1>17 July 2019</h1>
             <h1>Upstart Edge</h1>
@@ -305,7 +307,7 @@
     <!-- Incentives Section -->
     <section class="incentive">
       <h2 class="heading1">Incentives</h2>
-      <hr />
+      <div class="underline"></div>
       <div class="bg">
         <div class="mainrow">
           <div class="colo1">
@@ -370,56 +372,72 @@
     <section class="black" id="Competition">
       <h2 class="heading">Competition Structure</h2>
       <div class="underline"></div>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <div class="container flex-center bg">
         <div class="wrapper">
           <div class="center-line"></div>
           <div class="row row2">
-            <img src="img/User.png" alt="">
+            <img src="img/User.png" alt="" />
             <h1>One Step Registration</h1>
             <div class="timeline-content">
               <p>
-                All participating startups have to register via one step process.The participants need to fill the concerned details and top startups will be shortlisted for the Final Round Mentoring sessions, to be held in IIT Kanpur during E-Summit'19.
+                All participating startups have to register via one step
+                process.The participants need to fill the concerned details and
+                top startups will be shortlisted for the Final Round Mentoring
+                sessions, to be held in IIT Kanpur during E-Summit'19.
               </p>
             </div>
           </div>
           <div class="row row1">
             <div class="timeline-content">
               <p>
-                The teams have to pitch their summary to an independent panel in under 200 seconds. It is a prerequisite to the finale and will be held in campus on 30th August. It has a 25% weightage in the total evaluation.
+                The teams have to pitch their summary to an independent panel in
+                under 200 seconds. It is a prerequisite to the finale and will
+                be held in campus on 30th August. It has a 25% weightage in the
+                total evaluation.
               </p>
             </div>
-            <img src="img/signal.png" alt="">
+            <img src="img/signal.png" alt="" />
             <h1>Elevator Pitch</h1>
           </div>
           <div class="row row2">
-            <img src="img/shield.png" alt="">
+            <img src="img/shield.png" alt="" />
             <h1>Final Pitch</h1>
             <div class="timeline-content">
               <p>
-                After the session, Startups will have time till the next day to build upon their Plan and modify their Pitch based on the inputs they received. They will then participate in a 10-minute pitch (followed by Q&As) to present their improved Business Plans before the Upstart panel, a panel of judges on 31st August. The start-ups will accordingly be given their final positions based on the Judging Criteria as elaborated in a later section.
+                After the session, Startups will have time till the next day to
+                build upon their Plan and modify their Pitch based on the inputs
+                they received. They will then participate in a 10-minute pitch
+                (followed by Q&As) to present their improved Business Plans
+                before the Upstart panel, a panel of judges on 31st August. The
+                start-ups will accordingly be given their final positions based
+                on the Judging Criteria as elaborated in a later section.
               </p>
             </div>
           </div>
           <div class="row row1">
             <div class="timeline-content">
               <p>
-                All the participants of Upstart Biz and Socha will be provided with serious mentoring for a period of 2 months, who would be allocated according to the need of the startup. Mentors would be experienced in various fields which may be the reason for the setback of a startup.
+                All the participants of Upstart Biz and Socha will be provided
+                with serious mentoring for a period of 2 months, who would be
+                allocated according to the need of the startup. Mentors would be
+                experienced in various fields which may be the reason for the
+                setback of a startup.
               </p>
             </div>
-            <img src="img/Cap.png" alt="">
+            <img src="img/Cap.png" alt="" />
             <h1>Mentor Connect after summit</h1>
           </div>
         </div>
       </div>
-      <img src="img/Vector.png" alt="" />
     </section>
 
     <!-- judging criteria -->
 
     <section class="judging">
       <h1>Judging Criteria</h1>
+      <div class="underline"></div>
       <div class="container">
         <div class="box shadow">Concept <img src="img/arrow.png" alt="" /></div>
         <div class="box shadow">Market <img src="img/arrow.png" alt="" /></div>
@@ -446,7 +464,7 @@
 
     <section class="eligibility">
       <h1>Eligibility</h1>
-
+      <div class="underline"></div>
       <div class="eligcols">
         <div class="eligleft">
           <img src="img/eligbg.png" alt="" />
@@ -510,6 +528,79 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Section  -->
+    <section id="contactus">
+      <h1>Contact Us</h1>
+      <h3>Any question or remarks ? Just write us a message !</h3>
+      <div class="divider">
+        <div class="rightcontact">
+          <h4>GET IN TOUCH</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+            sed do eiusmod tempor incididunt ut labore et dolore<br />
+            magna aliqua.
+          </p>
+          <div class="icons">
+            <img src="call 1.png" alt="" /><span>1234567</span>
+          </div>
+          <div class="icons">
+            <img src="letter 1.png" alt="" /><span> abc@gmail.com </span>
+          </div>
+          <div class="icons">
+            <img src="location-pin 1.png" alt="" /> <span>Location</span>
+          </div>
+        </div>
+        <div class="leftcontact">
+          <div class="contactbox">
+            <h2>SAY SOMETHING</h2>
+            <form action="">
+              <div class="name">
+                <input type="text" placeholder="Your Name..." />
+              </div>
+              <div class="gmail">
+                <input type="text" placeholder="Your Email..." />
+              </div>
+              <div class="message">
+                <input type="text" placeholder="Message..." />
+              </div>
+              <button>SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="dividefooter">
+        <div class="part1">
+          <h1>UPSTART</h1>
+          <h2>Nationals</h2>
+          <h2>Incentives</h2>
+          <h2>Timeline</h2>
+          <h2>Eligibility</h2>
+        </div>
+        <div class="part2">
+          <h1>
+            The Entrepreneurship Cell<br />
+            IIT Kanpur
+          </h1>
+          <h2>DPP</h2>
+          <h2>SEP</h2>
+          <h2>SUEP</h2>
+        </div>
+        <div class="part3">
+          <h1>Follow</h1>
+          <img src="akar-icons_linkedin-v1-fill.png" alt="" />
+          <img src="akar-icons_linkedin-v1-fill.png" alt="" />
+          <br />
+          <img src="akar-icons_linkedin-v1-fill.png" alt="" />
+          <img src="akar-icons_linkedin-v1-fill.png" alt="" />
+        </div>
+      </div>
+      <hr />
+      <br /><br />
+      <p>Copyright @2022 All right reserved I made With Love</p>
+    </footer>
 
     <script src="JS/resp.js"></script>
   </body>
