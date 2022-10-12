@@ -1,0 +1,284 @@
+/* Home Section  */
+nav img {
+  margin: 0px 10px;
+  margin-left: 10px;
+}
+
+.main{
+  flex-direction: column-reverse;
+}
+
+.right{
+  max-width: 90%;
+}
+
+.left {
+  text-align: left;
+  margin: 0px 50px;
+  max-width: 85%;
+}
+
+.left h1 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+.left p {
+  font-size: 28px;
+}
+
+
+/* About Section  */
+.about h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.about .underline {
+  margin: 0 24%;
+  margin-top: -2px;
+  margin-bottom: 25px;
+}
+
+.about .cols {
+  flex-direction: column;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.leftcol img {
+  width: 340px;
+}
+
+.rightcol p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Upstart Edge  */
+.Edge {
+  height: 0px;
+}
+.Edge h2 {
+  font-size: 36px;
+  margin: 4px;
+}
+
+.leftpart {
+  width: 23%;
+}
+.cols .leftpart img {
+  margin-left: -20px;
+  height: 32%;
+}
+
+.Edge .cols .mid {
+  width: 82%;
+}
+
+.mid h1 {
+  font-size: 28px;
+}
+.mid p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.group {
+  margin-left: -75px;
+  margin-top: 45px;
+}
+.block {
+  border-radius: 24px;
+  width: 110px;
+  height: 120px;
+}
+.block h1 {
+  padding: 10px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.block h3 {
+  font-size: 17px;
+}
+
+.right1 {
+  visibility: hidden;
+  display: none;
+}
+
+/* Delegates Section  */
+.row {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+.row .col {
+  width: 80%;
+}
+.heading1 {
+  font-size: 40px;
+}
+
+/* Timeline Section  */
+#timeline .container .flex-center{
+  flex-direction: column;
+} 
+
+#timeline .container .vertical{
+  display: block;
+  width: 40%;
+}
+#timeline .container .horizontal{
+  display: none;
+}
+
+#timeline .container{
+  flex-direction: row;
+}
+
+.date h1{
+  font-size: 16px;
+}
+
+.down{
+  margin-bottom: 0%;
+}
+.up{
+  margin-top: 0%;
+}
+
+.date{
+  margin: 23px 2px;
+}
+
+/* Upstart National  */
+.heading {
+  font-size: 36px;
+  padding-top: 40px;
+}
+
+#Nationals .flex-center .container h1{
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+#Nationals .flex-center .container .flex-center{
+  flex-direction: column;
+}
+
+.rightborder{
+  margin: 0px 10px;
+}
+.circle{
+  height: 15px;
+  width: 15px;
+}
+
+.rightline{
+  height: 1000px;
+  width: 5px;
+  margin-left: 4.5px;
+}
+
+
+.content{
+  width: 80%;
+  margin-right: 0%;
+}
+.content p{
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.ver{
+  width: 100%;
+  margin-right: 0%;
+  transform: rotate(270deg);
+}
+
+#Nationals .flex-center .container .delhi .ver h1{
+  margin: 10px 29px;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+
+/* Incentives  */
+.mainrow {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 60%;
+}
+.eligcols {
+  flex-direction: column;
+}
+.eligleft {
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Competition Structure  */
+.wrapper .center-line{
+  left: 25%;
+  height: 100%;
+}
+
+.icon{
+  flex-direction: column;
+  width: 10%;
+}
+
+.wrapper .row{
+  margin: 30px 0 3px 60px;
+  flex-direction: row;
+}
+.wrapper .row1{
+  flex-direction: row-reverse;
+}
+.wrapper .row2 .icon h1{
+  margin-right: 0%;
+  margin-left: -95px;
+  font-size: 15px;
+}
+.wrapper .row2 .icon img{
+  margin-right: 0px;
+  margin-left: -82px;
+  width: 250%;
+}
+.wrapper .row1 .icon img{
+  margin-right: 0px;
+  margin-left: -82px;
+  width: 250%;
+}
+.wrapper .row1 .icon h1{
+  margin-right: 0%;
+  margin-left: -95px;
+  font-size: 15px;
+}
+
+.wrapper .row .timeline-content{
+  width: 60%;
+  padding: 30px;
+}
+
+.row1 .timeline-content::before{
+  left: -36px;
+}
+.row2 .timeline-content::before{
+  left: -36px;
+}
+
+.timeline-content p{
+  line-height: 22px;
+}
+
+.box{
+  border-radius: 25px;
+  width: 70%;
+  padding: 0px 30px;
+  font-size: 16px;
+  text-align: left;
+}

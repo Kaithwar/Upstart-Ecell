@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upstart'22</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet"  media="screen and (max-width: 900px)" href="CSS/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -97,7 +98,7 @@
     <section class="Edge bg">
       <h2>so far this year ...</h2>
       <div class="cols">
-        <div class="left">
+        <div class="leftpart">
           <img src="img/Upstart Edge.png" alt="" />
         </div>
         <div class="mid">
@@ -201,7 +202,8 @@
             <h1>Upstart Edge</h1>
           </div>
         </div>
-        <img src="img/timeline.png" alt="" />
+        <img class="horizontal" src="img/timeline.png" alt="" />
+        <img class="vertical" src="img/Vertical timeline.png" alt="">
         <div class="flex-center bottom">
           <div class="date up">
             <h1>17 July 2019</h1>
@@ -378,8 +380,10 @@
         <div class="wrapper">
           <div class="center-line"></div>
           <div class="row row2">
-            <img src="img/User.png" alt="" />
-            <h1>One Step Registration</h1>
+            <div class="icon">
+              <img src="img/User.png" alt="" />
+              <h1>One Step Registration</h1>
+            </div>
             <div class="timeline-content">
               <p>
                 All participating startups have to register via one step
@@ -398,12 +402,16 @@
                 total evaluation.
               </p>
             </div>
-            <img src="img/signal.png" alt="" />
-            <h1>Elevator Pitch</h1>
+            <div class="icon">
+              <img src="img/signal.png" alt="" />
+              <h1>Elevator Pitch</h1>
+            </div>
           </div>
           <div class="row row2">
-            <img src="img/shield.png" alt="" />
-            <h1>Final Pitch</h1>
+            <div class="icon">
+              <img src="img/shield.png" alt="" />
+              <h1>Final Pitch</h1>
+            </div>
             <div class="timeline-content">
               <p>
                 After the session, Startups will have time till the next day to
@@ -426,8 +434,10 @@
                 setback of a startup.
               </p>
             </div>
-            <img src="img/Cap.png" alt="" />
-            <h1>Mentor Connect after summit</h1>
+            <div class="icon">
+              <img src="img/Cap.png" alt="" />
+              <h1>Mentor Connect after summit</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -528,6 +538,29 @@
         </div>
       </div>
     </section>
+
+    <!-- Terms and Condition Section  -->
+    <section id="termsandconditions">
+      <h1>Terms AND <b>Conditions</b></h1>
+      <div class="Terms">
+          <div class="image">
+              <div class="dot"></div>
+              <div class="upline"></div>
+              <img src="img/Terms.png" alt="">
+              <div class="lowline"></div>
+              <div class="dot"></div>
+          </div>
+          <div class="Conditions">
+              <h4 class="one">It is mandatory for participants to register online for E-Summit '19.</h4>
+              <h4 class="two">No offline submissions of the B-Plan for UpStart'19 will be accepted.</h4>
+              <h4 class="three">Entries submitted after the deadline shall not be considered.</h4>
+              <h4 class="four">It is mandatory for participants to register online for E-Summit '19.</h4>
+              <h4 class="five">It is mandatory for participants to register online for E-Summit '19.</h4>
+              <h4 class="six">It is mandatory for participants to register online for E-Summit '19.</h4>
+              <h4 class="seven">It is mandatory for participants to register online for E-Summit '19.</h4>
+          </div>
+      </div>
+  </section>
 
     <!-- Contact Section  -->
     <section id="contactus">

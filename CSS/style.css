@@ -18,7 +18,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0.1)),
-    url(img/greybg.png);
+    url(/img/greybg.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -238,9 +238,12 @@ body {
   margin: 20px;
 }
 
-.cols .left img {
-  margin-left: -168px;
+.cols .leftpart img {
+  margin-left: -68px;
   height: 85%;
+}
+.mid h1{
+  font-size: 50px;
 }
 
 .mid p {
@@ -285,9 +288,6 @@ body {
   width: 300px;
 }
 
-.mid h1{
-  font-size: 50px;
-}
 
 .right1 {
   display: flex;
@@ -363,6 +363,9 @@ body {
   margin: 0 35%;
   margin-top: 0px;
   margin-bottom: 36px;
+}
+#timeline .container .vertical{
+  display: none;
 }
 .date{
   margin: 8px 15px;
@@ -468,16 +471,14 @@ body {
 }
 .middlecol1{
 position: relative;
-top: 100px;
+
 }
 .middlecol2{
   position: relative;
-  bottom: 100px;
+
 
 }
-.bottomrow{
-  padding-top: 18vw;
-}
+
 
 /* -------Competition Structure------- */
 #Competition .underline{
@@ -512,14 +513,24 @@ top: 100px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-.wrapper .row2 h1{
-  margin-right: 15%;
-  margin-left: 15px;
+.icon{
+  display: flex;
 }
-.wrapper .row1 img{
-  margin-right: 15px;
-  margin-left: 15%;
+.wrapper .row2 .icon h1{
+  margin-right: 52%;
+    margin-left: 28px;
+}
+.wrapper .row2 .icon img{
+  margin-right: -16px;
+  margin-left: -45%;
+}
+.wrapper .row1 .icon img{
+  margin-right: 7px;
+  margin-left: 55%;
+}
+.wrapper .row1 .icon h1{
+  margin-right: -20%;
+  margin-left: 20px;
 }
 
 .wrapper .row .timeline-content{
@@ -596,8 +607,10 @@ top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 60%;
   padding: 0px 45px;
-  margin: 13px 250px;
+  margin: auto;
+  margin-bottom: 13px;
   padding-left: 70px;
   font-weight: 605;
   font-size: 28px;
@@ -679,7 +692,75 @@ top: 100px;
     height: 30px;
 }
 
+/* Terms and Consitions  */
+.Terms .image .dot{
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
 
+.Terms .Conditions h4{
+background-color: rgba(29, 82, 130, 1);
+border-radius: 30px;
+padding: 20px;
+margin-top: 2.5vw;
+margin-bottom: 2.5vw;
+color: white;
+text-align: center;
+}
+.Terms .image img{
+border: 3px solid black;
+border-radius: 50%;
+margin: 20px;
+margin-top: 3.4vw;
+}
+#termsandconditions h1{
+text-align: center;
+font-size: 3vw;
+padding: 20px;
+padding-bottom: 50px;
+}
+
+.Terms .image .upline{
+border-left: 3px solid black ;
+height: 13vh;
+position: relative;
+left: 240px;
+top: 68px;
+}
+.Terms .image .lowline{
+border-left: 3px solid black ;
+height: 13vh;
+position: relative;
+left: 240px;
+top: -24px;
+}
+.Terms{
+display: flex;
+margin-left: 20vw;
+}
+.one{
+margin-left: -12vw;
+}
+.two{
+margin-left: -5vw;
+}
+.three{
+margin-left: 0vw;
+}
+.four{
+margin-left: 3vw;
+}
+.five{
+margin-left: 0vw;
+}
+.six{
+margin-left: -5vw;
+}
+.seven{
+margin-left: -12vw;
+}
 
 /* Contact Section design  */
 *{margin: 0;
@@ -759,6 +840,10 @@ top: 100px;
   .part3 img{
       padding: 0px 30px 30px 0px;
   }
+
+
+
+/* Footer design  */
   footer{
       background-color: black;
       padding-top: 60px;
@@ -804,7 +889,6 @@ top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
   }
 
   .nav img {
@@ -824,4 +908,21 @@ top: 100px;
   .vclassresp {
     opacity: 0;
   }
+}
+
+
+@media screen and (min-width:900px) {
+  .middlecol1{
+    position: relative;
+    top: 100px;
+    }
+    .middlecol2{
+      position: relative;
+      bottom: 100px;
+    
+    }
+    .bottomrow{
+      padding-top: 18vw;
+    }
+  
 }
