@@ -282,3 +282,66 @@ nav img {
   font-size: 16px;
   text-align: left;
 }
+
+/* Terms And Conditions  */
+.Terms{
+  flex-direction: column;
+}
+#termsandconditions h1 {
+  font-size: 28px;
+}
+.dot1{
+  display: none;
+}
+.dot2{
+  display: none;
+}
+.upline{
+  display: none;
+}
+.lowline{
+  display: none;
+}
+
+.Terms .image img{
+  border: none;
+  border-radius: 0;
+  width: 85%;
+}
+
+.point h3{
+  font-size: 16px;
+}
+.Conditions .point{
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.one{
+  right: 2%;
+  margin-left: 15px;
+}
+.two{
+  right: 2%;
+  margin-left: 15px;
+}
+.three{
+  right: 2%;
+  margin-left: 15px;
+}
+.four{
+  right: 2%;
+  margin-left: 15px;
+}
+.five{
+  right: 2%;
+  margin-left: 15px;
+}
+.six{
+  right: 2%;
+  margin-left: 15px;
+}
+.seven{
+  right: 2%;
+  margin-left: 15px;
+}
