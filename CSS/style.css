@@ -185,8 +185,7 @@ body {
 }
 
 .about h1 {
-  font-size: 70px;
-  font-weight: 1000;
+  font-size: 60px;
 }
 
 .about .underline {
@@ -234,22 +233,29 @@ body {
 
 .Edge h2 {
   font-family: "Vujahday Script", cursive;
-  font-size: 55px;
+  font-size: 45px;
   margin: 20px;
 }
 
+.cols .leftpart{
+  width: 20%;
+}
 .cols .leftpart img {
-  margin-left: -68px;
-  height: 85%;
+  height: 80%;
+}
+
+.mid{
+  width: 52%;
 }
 .mid h1 {
-  font-size: 50px;
+  font-size: 40px;
+  margin: 0 20px;
 }
 
 .mid p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
-  margin: 30px 0;
+  margin: 30px 20px;
 }
 
 .group {
@@ -263,7 +269,7 @@ body {
   text-align: center;
   width: 200px;
   height: 180px;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 .color1 {
   background-color: #0d9978;
@@ -277,7 +283,7 @@ body {
 
 .block h1 {
   padding: 15px 0;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 3px;
 }
 .block h3 {
@@ -285,14 +291,14 @@ body {
 }
 
 .cols .right img {
-  width: 300px;
+  width: 250px;
 }
 
 .right1 {
   display: flex;
   flex-direction: column;
   justify-content: right;
-  max-width: 28%;
+  width: 30%;
 }
 
 .right1 img {
@@ -314,7 +320,7 @@ body {
   color: white;
 }
 .heading1 {
-  font-size: 55px;
+  font-size: 50px;
   text-align: center;
   padding-top: 30px;
   color: white;
@@ -342,11 +348,14 @@ body {
 }
 .row .col {
   width: 25%;
-  background: white;
   color: black;
-  border-radius: 10%;
   margin: 30px 35px;
   text-align: center;
+  background: #fff;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  border-bottom: 3px solid #066b23;
+  border-radius: 8px;
+  transition: 0.3s ease;
 }
 .col p {
   margin: 10px 20px;
@@ -378,9 +387,14 @@ body {
 
 /* -------Upstart National------- */
 .heading {
-  font-size: 55px;
+  font-size: 50px;
   text-align: center;
   padding-top: 50px;
+}
+
+#Nationals .flex-center{
+  margin: auto;
+  width: 92%;
 }
 
 #Nationals .underline {
@@ -400,7 +414,7 @@ body {
 }
 
 .rightline {
-  height: 700px;
+  height: 1000px;
   width: 6px;
   background: black;
   margin-left: 7px;
@@ -458,13 +472,14 @@ body {
 .colo1 {
   color: rgb(6, 107, 35);
   background-color: white;
-  padding: 20px;
-  margin: 1vw;
+  padding: 25px;
+  margin: 10px 20px;
+  width: 33%;
   border-radius: 25px;
 }
 .mainrow .colo1 h3 {
   text-align: center;
-  padding: 40px 0px;
+  margin: 20px 0;
 }
 .middlecol1 {
   position: relative;
@@ -538,8 +553,25 @@ body {
   cursor: pointer;
   color: black;
 }
-
-.wrapper .row .timeline-content::before {
+.wrapper .row .cir2{
+  position: relative;
+  right: 67px;
+  bottom: 67px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #066b23;
+}
+.wrapper .row .cir1{
+  position: relative;
+  right: -67px;
+  bottom: 67px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #066b23;
+}
+/* .wrapper .row .timeline-content::before {
   position: absolute;
   content: "";
   height: 20px;
@@ -553,7 +585,7 @@ body {
 }
 .row2 .timeline-content::before {
   left: -87px;
-}
+} */
 
 .timeline-content p {
   line-height: 30px;
@@ -572,7 +604,7 @@ body {
   text-align: center;
   padding-top: 40px;
   min-height: 100vh;
-  background-color: #eaedf1;
+  background-color: #f0fffa;
   padding-bottom: 60px;
 }
 
@@ -607,7 +639,7 @@ body {
   padding-left: 70px;
   font-weight: 605;
   font-size: 28px;
-  box-shadow: 0 4px 0 #1d5282;
+  box-shadow: 0 4px 0 #066b23;
   cursor: pointer;
 }
 
@@ -667,19 +699,19 @@ body {
   padding-right: 45px;
 }
 
-.info {
+.eligright .info {
   display: flex;
   justify-content: space-between;
   text-align: left;
   /* margin: 35px; */
 }
 
-.info p {
+.eligright .info p {
   padding-right: 25px;
   margin: 12px 2px;
 }
 
-.info img {
+.eligright .info img {
   padding: 20px;
   width: 30px;
   height: 30px;
@@ -690,6 +722,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 20px;
+  margin-bottom: 70px;
 }
 
 .Terms .image img {
@@ -742,40 +776,44 @@ body {
 }
 .Conditions .point{
   position: relative;
-  background: #1D5282;
+  background: #1abc9c;
   padding: 12px 20px;
   color: white;
   border-radius: 24px;
   margin-top: 54px;
 }
 
+.Conditions .point h3{
+  font-size: 18px;
+}
+
 .one{
-  right: 64%;
+  right: 70%;
 }
 .two{
-  right: 40%;
+  right: 45%;
 }
 .three{
-  right: 19%;
+  right: 25%;
 }
 .four{
-  right: 0%;
+  right: 10%;
 }
 .five{
-  right: 19%;
+  right: 25%;
 }
 .six{
-  right: 40%;
+  right: 45%;
 }
 .seven{
-  right: 64%;
+  right: 70%;
 }
 
 
 
 
 /* Contact Section design  */
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -851,7 +889,8 @@ button {
 }
 .part3 img {
   padding: 0px 30px 30px 0px;
-}
+} */
+
 
 /* Footer design  */
 footer {
