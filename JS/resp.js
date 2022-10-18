@@ -25,3 +25,48 @@ ScrollReveal().reveal('.cols .mid, .container .bottom, .delhi .images', { delay:
 ScrollReveal().reveal('.container .top, #Nationals .flex-center .container .delhi .ver h1', { delay: 500, origin: 'top' });
 ScrollReveal().reveal('.eligright .info', { delay: 600, origin: 'right', interval:200 });
 ScrollReveal().reveal('.Edge h2, .rightborder, .eligleft, .rightcontact', { delay: 600, origin: 'left'});
+
+const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+
+// Judging Criteria
+const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+      currentlyActiveAccordionItemHeader.classList.toggle("active");
+      currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
