@@ -611,16 +611,53 @@ body {
   cursor: pointer;
 }
 
-.box:hover {
-  font-size: 30px;
-  padding: 2px 73px;
-  font-weight: 700;
-  transition: 0.4s;
-}
 
 .box img {
   width: 40px;
   padding: 15px;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  box-shadow: 0 4px 0 rgb(0, 117, 21);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 }
 
 /* -------eligibility------- */
@@ -784,6 +821,8 @@ body {
   font-size: 3vw;
   font-weight: 900;
 }
+
+
 #contactus h3 {
   text-align: center;
   font-size: 1.5vw;
@@ -853,9 +892,31 @@ button {
   padding: 0px 30px 30px 0px;
 }
 
+.part1 h1{
+  font-size: 35px;
+}
+
+.part1 p{
+  font-size: 17px;
+}
+
+.part2 p{
+  font-size: 17px;
+}
+
+.part2 h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.part2 h1{
+  font-size: 35px;
+}
+
+
 /* Footer design  */
 footer {
-  background-color: black;
+  background-color: rgb(236, 234, 234);
   padding-top: 60px;
   color: white;
   margin-top: 60px;
@@ -865,8 +926,13 @@ footer {
   justify-content: space-around;
   padding-bottom: 80px;
 }
+
+.dividefooter p{
+  color: #000000;
+}
+
 footer h1 {
-  color: rgb(0, 209, 160);
+  color: rgb(16, 178, 140);
   padding: 20px 0px;
 }
 footer h2 {
