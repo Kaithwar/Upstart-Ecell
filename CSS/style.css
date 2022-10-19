@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .flex-center {
@@ -245,7 +246,7 @@ body {
 }
 
 .mid{
-  width: 52%;
+  width: 46%;
 }
 .mid h1 {
   font-size: 40px;
@@ -421,12 +422,12 @@ body {
 }
 
 .flex-center .container h1 {
-  font-size: 52px;
+  font-size: 45px;
   margin: 20px 0;
   margin-top: 60px;
 }
 .images {
-  width: 94%;
+  width: 85%;
 }
 .images img {
   width: 48%;
@@ -555,7 +556,7 @@ body {
 }
 .wrapper .row .cir2{
   position: relative;
-  right: 67px;
+  right: 143px;
   bottom: 67px;
   height: 20px;
   width: 20px;
@@ -564,7 +565,7 @@ body {
 }
 .wrapper .row .cir1{
   position: relative;
-  right: -67px;
+  right: -144px;
   bottom: 67px;
   height: 20px;
   width: 20px;
@@ -623,7 +624,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-bottom: 8%;
+  padding-bottom: 12%;
 }
 
 .box {
@@ -738,9 +739,7 @@ body {
 
 .eligright .info {
   display: flex;
-  justify-content: space-between;
-  text-align: left;
-  /* margin: 35px; */
+  text-align: left; 
 }
 
 .eligright .info p {
@@ -749,12 +748,12 @@ body {
 }
 
 .eligright .info img {
-  padding: 20px;
+  margin: 20px;
   width: 30px;
   height: 30px;
 }
 
-/* Terms and Consitions  */
+/* Terms and Conditions  */
 .Terms {
   display: flex;
   align-items: center;
@@ -847,88 +846,16 @@ body {
 }
 
 
-
-
-/* Contact Section design  */
-/* * {
-  margin: 0;
-  padding: 0;
-}
-#contactus h1 {
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 900;
-}
-
-
-#contactus h3 {
-  text-align: center;
-  font-size: 1.5vw;
-  font-weight: 400;
-  padding: 20px 0px 70px 0px;
-}
-.divider {
-  display: flex;
-  justify-content: space-around;
-}
-.rightcontact h4 {
-  padding-bottom: 40px;
-  font-size: 2vw;
-}
-.rightcontact p {
-  padding-bottom: 40px;
-  font-size: 1.3vw;
-}
-.icons {
-  display: flex;
-  justify-content: start;
-  padding: 25px 0px;
-}
-.icons span {
-  font-size: x-large;
-  padding: 0px 20px;
-}
-.contactbox {
-  background-color: rgb(246, 248, 255);
-  border-radius: 20px;
-  border: 1px solid black;
-  box-shadow: -20px -25px 3px 3px rgb(192, 192, 192);
-}
-.contactbox h2 {
-  text-align: center;
-  padding-top: 30px;
-}
-.contactbox input {
-  width: 25vw;
-  padding: 10px;
-}
-.contactbox form {
-  text-align: center;
-  padding: 30px;
-}
-.name {
-  padding: 40px;
-}
-.gamil {
-  padding: 40px;
-}
-.message input {
-  height: 10vh;
-}
-.message {
-  padding: 40px;
-}
-button {
-  background-color: rgb(29, 82, 130);
-
+/* Footer design  */
+footer {
+  background-color: rgb(236, 234, 234);
+  padding-top: 60px;
   color: white;
-  border: none;
-  padding: 20px;
-  border-radius: 10px;
 }
+
 .part3 img {
   padding: 0px 30px 30px 0px;
-} */
+} 
 
 
 .part1 h1{
@@ -951,218 +878,11 @@ button {
 .part2 h1{
   font-size: 35px;
 }
-
-/* Contact Section design  */
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#contactsection{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #095a55;
-}
-
-#contactsection::before{
-  content: '';
-  position: absolute;
-  left: 0; 
-  width: 50%;
-  height: 100%;
-  background: #fff38e;
-}
-
-.cscontainer{
-  position: relative;
-  min-width: 1100px;
-  min-height: 550px;
-  display: flex;
-  z-index: 1000;
-  
-}
-
-.cscontainer .contactinfo{
-  position: absolute;
-  top: 40px;
-  width: 350px;
-  height: calc(100% - 80px);
-  background: #095a55;
-  z-index: 1;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 20px 25px rgba(0,0,0,0.15);
-}
-
-.cscontainer .contactform{
-  position: absolute;
-  padding: 70px 50px;
-  padding-left: 250px;
-  margin-left: 150px;
-  width: calc(100% - 150px);
-  height: 100%;
-  background: #fff;
-  box-shadow: 0 50px 50px rgba(0,0,0,0.25);
-
-}
-
-.cscontainer .contactinfo h2{
-  color: #fff;
-  font-size: 24px;
-  font-weight: 500px;
-
-}
-
-.cscontainer .contactinfo ul.csinfo{
-  position: relative;
-  margin: 20px 0;
-}
-
-.cscontainer .contactinfo ul.csinfo li{
-  position: relative;
-  list-style: none;
-  display: flex;
-  margin: 20px 0;
-  cursor: pointer;
-  align-items: flex-start;
-}
-
-.cscontainer .contactinfo ul.csinfo li span:nth-child(1){
-  width: 30px;
-  min-width: 30px;
-}
-
-.cscontainer .contactinfo ul.csinfo li span:nth-child(1) img{
-  max-width: 100%;
-  filter: invert(1);
-}
-
-.cscontainer .contactinfo ul.csinfo li span:nth-child(2){
-  color: #fff;
-  margin-left: 10px;
-  font-weight: 300;
-  
-}
-
-.cscontainer .contactinfo ul.sci{
-  position: relative;
-  display: flex;
-}
-
-.cscontainer .contactinfo ul.sci li{
-  list-style: none;
-  margin-right: 15px;
-}
-
-.cscontainer .contactinfo ul.sci li a{
-  text-decoration: none;
-
-}
-
-.cscontainer .contactinfo ul.sci li a img{
-  filter: invert(1);
-}
-
-
-.cscontainer .contactform h2{
-  color: #0f3959;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.cscontainer .contactform .formbox{
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top: 30px;
-}
-
-.cscontainer .contactform .formbox .inputbox{
-  position: relative;
-  margin-bottom: 35px;
-}
-
-.cscontainer .contactform .formbox .inputbox.w50{
-  width: 47%;
-}
-
-.cscontainer .contactform .formbox .inputbox.w100{
-  width: 100%;
-}
-
-.cscontainer .contactform .formbox .inputbox input,
-.cscontainer .contactform .formbox .inputbox textarea{
-  width: 100%;
-  resize: none;
-  padding: 5px 0;
-  font-size: 18px;
-  font-weight: 300;
-  color: #333;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid#777;
-}
-
-.cscontainer .contactform .formbox .inputbox textarea{
-  height: 120px;
-}
-
-.cscontainer .contactform .formbox .inputbox span{
-  position: absolute;
-  left: 0;
-  padding: 5px 0;
-  pointer-events: none;
-  font-size: 18px;
-  font-weight: 300;
-  transition: 0.3s;
-}
-
-.cscontainer .contactform .formbox .inputbox input:focus ~ span,
-.cscontainer .contactform .formbox .inputbox input:valid ~ span,
-.cscontainer .contactform .formbox .inputbox textarea:focus ~ span,
-.cscontainer .contactform .formbox .inputbox textarea:valid ~ span{
-  transform: translateY(-20px);
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: #095a55;
-  font-weight: 500;
-}
-
-.cscontainer .contactform .formbox .inputbox input[type="submit"]{
-  position: relative;
-  cursor: pointer;
-  background: #095a55;
-  color: #fff;
-  border: none;
-  max-width: 150px;
-  padding: 12px;
-}
-
-.cscontainer .contactform .formbox .inputbox input[type="submit"]:hover{
-  background: #0d948b; 
-}
-
-
-/* Footer design  */
-footer {
-  background-color: rgb(236, 234, 234);
-  padding-top: 60px;
-  color: white;
-  margin-top: 60px;
-}
 .dividefooter {
   display: flex;
   justify-content: space-around;
   padding-bottom: 80px;
+  padding-top: 50px;
 }
 
 .dividefooter p{
@@ -1236,83 +956,3 @@ hr {
   }
 }
 
-@media (max-width : 1200px){
-  .cscontainer{
-    width: 90%;
-    min-width: auto;
-    margin: 20px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-  }
-
-  .cscontainer .contactinfo{
-    top: 0;
-    height: 550px;
-    position: relative;
-    box-shadow: none;
-  }
-
-  .cscontainer .contactform{
-    position: relative;
-    width: calc(100% - 350px);
-    padding-left: 0;
-    margin-left: 0;
-    padding: 40px;
-    height: 550px;
-    box-shadow: none;
-  }
-}
-
-@media(max-width : 991px){
-  #contactsection{
-    background: #fff38e;
-
-  }
-
-  #contactsection::before{
-    display: none;
-  }
-
-  .cscontainer{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .cscontainer .contactform{
-    width: 100%;
-    height: auto;
-  }
-
-  .cscontainer .contactinfo{
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-  }
-
-  .cscontainer .contactinfo ul.sci{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-}
-
-@media (max-width : 600px){
-  .cscontainer .contactform{
-    padding: 25px;
-  }
-  .cscontainer .contactinfo{
-    padding: 25px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .cscontainer .contactinfo ul.sci{
-    margin-top: 40px;
-  }
-
-  .cscontainer .contactform .formbox .inputbox.w50{
-    width: 100%;
-  }
-
-}
