@@ -64,28 +64,39 @@ nav img {
   margin: 4px;
 }
 
-.leftpart {
-  width: 23%;
+.cols .leftpart {
+  width: 30%;
 }
+
 .cols .leftpart img {
-  margin-left: -20px;
-  height: 32%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .Edge .cols .mid {
-  width: 82%;
+  width: 70%;
+  margin-left: 20px;
 }
 
 .mid h1 {
   font-size: 28px;
+  margin: 0
 }
 .mid p {
   font-size: 20px;
   margin: 20px 0;
 }
+.bg {
+  min-height: 60vh;
+}
 .group {
-  margin-left: -75px;
   margin-top: 45px;
+}
+.hide {
+  display: none;
+}
+.hide-lg {
+  display: flex !important;
 }
 .block {
   border-radius: 24px;
@@ -126,7 +137,7 @@ nav img {
 
 #timeline .container .vertical{
   display: block;
-  width: 40%;
+  width: 30%;
 }
 #timeline .container .horizontal{
   display: none;
@@ -134,6 +145,7 @@ nav img {
 
 #timeline .container{
   flex-direction: row;
+  margin-left: 10%;
 }
 
 .date h1{
@@ -153,7 +165,7 @@ nav img {
 
 /* Upstart National  */
 .heading {
-  font-size: 36px;
+  font-size: 32px;
   padding-top: 40px;
 }
 
@@ -170,14 +182,15 @@ nav img {
   margin: 0px 10px;
 }
 .circle{
-  height: 15px;
-  width: 15px;
+  display: none;
+}
+
+.cir1 {
+  right: 12.2% !important;
 }
 
 .rightline{
-  height: 1000px;
-  width: 5px;
-  margin-left: 4.5px;
+  display: none
 }
 
 
@@ -222,13 +235,13 @@ nav img {
 
 /* Competition Structure  */
 .wrapper .center-line{
-  left: 25%;
+  left: 7.5%;
   height: 100%;
 }
 
 .icon{
   flex-direction: column;
-  width: 10%;
+  width: 100%;
 }
 
 .wrapper .row{
@@ -239,29 +252,30 @@ nav img {
   flex-direction: row-reverse;
 }
 .wrapper .row2 .icon h1{
-  margin-right: 0%;
-  margin-left: -95px;
   font-size: 15px;
+  text-align: center;
+  margin: 20px 0;
 }
 .wrapper .row2 .icon img{
-  margin-right: 0px;
-  margin-left: -82px;
-  width: 250%;
+  margin: auto;
+  width: 60%;
+  object-fit: contain;
 }
 .wrapper .row1 .icon img{
-  margin-right: 0px;
-  margin-left: -82px;
-  width: 250%;
+  margin: auto;
+  width: 80%;
+  object-fit: contain;
 }
 .wrapper .row1 .icon h1{
-  margin-right: 0%;
-  margin-left: -95px;
+  margin: 20px 0;
+  text-align: center;
   font-size: 15px;
 }
 
 .wrapper .row .timeline-content{
-  width: 60%;
+  width: 90%;
   padding: 30px;
+  margin-right: 5%;
 }
 
 .row1 .timeline-content::before{
@@ -344,4 +358,11 @@ nav img {
 .seven{
   right: 2%;
   margin-left: 15px;
+}
+
+/* Footer */
+
+.dividefooter {
+  flex-direction: column;
+  text-align: center;
 }
