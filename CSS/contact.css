@@ -1,6 +1,6 @@
 /* Contact Section design  */
 
-#contactsection {
+#contactus {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,13 +8,13 @@
   background: #095a55;
 }
 
-#contactsection::before {
+#contactus::before {
   content: "";
   position: absolute;
   left: 0;
   width: 50%;
   height: 100%;
-  background: #fff38e;
+  background-image: linear-gradient( rgb(16, 178, 140), #008B8B);
 }
 
 .cscontainer {
@@ -213,12 +213,11 @@
 }
 
 @media(max-width : 991px){
-  #contactsection{
-    background: #fff38e;
-
+  #contactus{
+    background-image: linear-gradient( rgb(16, 178, 140), #008B8B);
   }
 
-  #contactsection::before{
+  #contactus::before{
     display: none;
   }
 

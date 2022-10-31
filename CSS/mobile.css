@@ -106,6 +106,7 @@ nav img {
   display: none;
 }
 
+
 /* Delegates Section  */
 .row {
   display: flex;
@@ -175,7 +176,7 @@ nav img {
 }
 
 .rightline{
-  height: 1000px;
+  height: 1400px;
   width: 5px;
   margin-left: 4.5px;
 }
@@ -207,6 +208,9 @@ nav img {
 .mainrow {
   display: flex;
   flex-direction: column;
+}
+.colo1 {
+  width: 88%;
 }
 .box {
   width: 60%;
@@ -240,27 +244,34 @@ nav img {
 }
 .wrapper .row2 .icon h1{
   margin-right: 0%;
-  margin-left: -95px;
+  margin-left: -73px;
   font-size: 15px;
 }
 .wrapper .row2 .icon img{
   margin-right: 0px;
-  margin-left: -82px;
+  margin-left: -51px;
   width: 250%;
 }
 .wrapper .row1 .icon img{
   margin-right: 0px;
-  margin-left: -82px;
+  margin-left: -64px;
   width: 250%;
 }
 .wrapper .row1 .icon h1{
   margin-right: 0%;
-  margin-left: -95px;
+  margin-left: -60px;
   font-size: 15px;
 }
 
+.wrapper .row .cir2 {
+  right: 15px;
+}
+.wrapper .row .cir1 {
+  right: 15px;
+}
+
 .wrapper .row .timeline-content{
-  width: 60%;
+  width: 84%;
   padding: 30px;
 }
 
@@ -344,4 +355,25 @@ nav img {
 .seven{
   right: 2%;
   margin-left: 15px;
+}
+
+/* Footer  */
+.dividefooter{
+  flex-direction: column;
+}
+footer h1 {
+  text-align: center;
+}
+
+.part2 h1 {
+  font-size: 25px;
+}
+
+.part3 li {
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  padding-bottom: 0px;
 }
