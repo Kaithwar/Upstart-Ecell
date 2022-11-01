@@ -9,6 +9,45 @@ burger.addEventListener('click',()=>{
     navbar.classList.toggle('hnavresp');
 }) 
 
+// Responsive navigation menu toggle
+
+const menubtn = document.querySelector(".burger")
+const closebtn = document.querySelector(".nav-close-btn")
+const navigation = document.querySelector(".navlist")
+const navItem = document.querySelectorAll(".navlist ul li")
+
+menubtn.addEventListener("click", () => {
+    navigation.classList.add("active");
+})
+
+closebtn.addEventListener("click", () => {
+    navigation.classList.remove("active");
+})
+
+navItem.forEach((navItem) =>{
+    navItem.addEventListener("click", () => {
+        navigation.classList.remove("active");
+    })
+})
+
+// Navigation bar effect on scroll 
+window.addEventListener("scroll", function(){
+  const header = document.querySelector(".navbar");
+  header.classList.toggle("sticky", window.scrollY > 0);
+})
+
+// Scroll Button 
+const Scrollbtn = document.querySelector(".scroll")
+
+window.addEventListener("scroll", function(){
+    Scrollbtn.classList.toggle("active", window.scrollY > 500);
+})
+
+Scrollbtn.addEventListener("click", () =>{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
+
 // Scroll Reveal Animation
 ScrollReveal({
     reset: false,

@@ -117,6 +117,7 @@ nav img {
   display: none;
 }
 
+
 /* Delegates Section  */
 .row {
   display: flex;
@@ -221,6 +222,9 @@ nav img {
   display: flex;
   flex-direction: column;
 }
+.colo1 {
+  width: 88%;
+}
 .box {
   width: 60%;
 }
@@ -270,6 +274,13 @@ nav img {
   margin: 20px 0;
   text-align: center;
   font-size: 15px;
+}
+
+.wrapper .row .cir2 {
+  right: 15px;
+}
+.wrapper .row .cir1 {
+  right: 15px;
 }
 
 .wrapper .row .timeline-content{
