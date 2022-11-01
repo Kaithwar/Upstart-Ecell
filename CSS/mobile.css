@@ -186,9 +186,9 @@ nav img {
   display: none;
 }
 
-.cir1 {
+/* .cir1 {
   right: 12.2% !important;
-}
+} */
 
 .rightline{
   display: none
@@ -277,10 +277,10 @@ nav img {
 }
 
 .wrapper .row .cir2 {
-  right: 15px;
+  right: 44px;
 }
 .wrapper .row .cir1 {
-  right: 15px;
+  right: 44px;
 }
 
 .wrapper .row .timeline-content{
