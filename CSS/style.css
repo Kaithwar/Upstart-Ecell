@@ -98,7 +98,7 @@ li{
 .navbar.sticky{
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
   backdrop-filter: blur(20px);
-  background: rgba(17, 17, 17, 0.344);
+  background: rgb(0 0 0 / 86%);
   height: calc(2.5rem + 1.8rem);
 }
 
@@ -125,7 +125,7 @@ nav img {
 .navlinks ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 50px;
+  padding: 8px 30px;
   position: relative;
 }
 
@@ -150,6 +150,15 @@ nav img {
 
 .navlinks ul li:hover::after {
   width: 100%;
+}
+
+.navbutton{
+  background: #00d1a0;
+  border-radius: 10px;
+}
+
+.navbutton:hover{
+  background: #01c698;
 }
 
 .textbox {
@@ -467,12 +476,17 @@ body {
 }
 .date {
   margin: 8px 15px;
+  font-size: 14px;
 }
 .down {
   margin-bottom: -17%;
+  margin-left: -85px;
+  margin-right: 10px;
 }
 .up {
   margin-top: -21%;
+  margin-left: 18px;
+  margin-right: 11px;
 }
 
 /* -------Upstart National------- */
@@ -623,7 +637,7 @@ body {
 }
 .wrapper .row1 .icon img {
   margin-right: 7px;
-  margin-left: 55%;
+  margin-left: 97%;
 }
 .wrapper .row1 .icon h1 {
   margin-right: -20%;
@@ -876,7 +890,7 @@ body {
   top: -28px;
 }
 .Terms .image .upline {
-  height: 120px;
+  height: 160px;
   width: 5px;
   background: black;
   position: relative;
@@ -884,7 +898,7 @@ body {
   top: 49px;
 }
 .Terms .image .lowline {
-  height: 120px;
+  height: 160px;
   width: 5px;
   background: black;
   position: relative;
@@ -892,7 +906,7 @@ body {
   top: -27px;
 }
 .Conditions{
-  margin-bottom: 30px;
+  margin-bottom: -7px;
 }
 .Conditions .point{
   position: relative;
@@ -900,45 +914,45 @@ body {
   padding: 12px 20px;
   color: white;
   border-radius: 24px;
-  margin-top: 54px;
+  margin-top: 40px;
 }
 
 .Conditions .point h3{
-  font-size: 18px;
+  font-size: 16px;
   
 }
 
 .one{
-  right: 45%;
+  right: 31%;
 }
 .two{
   right: 20%;
   
 }
 .three{
-  right: 4%;
+  right: 10%;
 }
 .four{
-  right: -2%;
+  right: 6%;
   
 }
 .five{
-  right: -8%;
+  right: 1%;
 }
 .six{
-  right: -8%;
+  right: 1%;
 }
 .seven{
-  right: -2%;
+  right: 6%;
 }
 .eight{
-  right: 4%;
+  right: 10%;
 }
 .nine{
   right: 20%;
 }
 .ten{
-  right: 45%;
+  right: 31%;
 }
 
 
@@ -955,27 +969,36 @@ footer {
   filter: invert(100%);
 } 
 
+.part3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .part1 {
   display: flex;
   flex-direction: column;
 }
 
-.part2 p{
-  font-size: 17px;
+.part2 .team{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.part2 h1{
-  font-size: 35px;
+.part2 .team .name{
+  margin: 20px 0px;
   text-align: center;
+  color: #4aebc6;
 }
-
-.part2 h1{
-  font-size: 35px;
+.part2 .team .name {
+  margin: 20px 0px;
+}
+.part2 .team .name a{
+  color: white;
 }
 .dividefooter {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 80px;
   padding-top: 50px;
 }
 
@@ -986,11 +1009,6 @@ footer h1 {
 }
 footer h2 {
   padding: 10px 0px;
-}
-footer p {
-  text-align: center;
-  font-size: 1vw;
-  padding-bottom: 20px;
 }
 
 .part1 a{

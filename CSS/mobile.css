@@ -335,7 +335,7 @@ nav img {
 }
 
 .point h3{
-  font-size: 16px;
+  font-size: 15px;
 }
 .Conditions .point{
   padding: 8px 15px;
@@ -370,10 +370,37 @@ nav img {
   right: 2%;
   margin-left: 15px;
 }
+.eight{
+  right: 2%;
+  margin-left: 15px;
+}
+.nine{
+  right: 2%;
+  margin-left: 15px;
+}
+.ten{
+  right: 2%;
+  margin-left: 15px;
+}
 
 /* Footer */
 
 .dividefooter {
   flex-direction: column;
   text-align: center;
+}
+
+.part2 h1{
+  font-size: 23px;
+}
+
+.part2 .team .name h3{
+  font-size: 17px;
+}
+.part2 .team .name p{
+  font-size: 14px;
+}
+
+.part2 .team .name {
+  margin: 15px 15px;
 }
