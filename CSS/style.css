@@ -141,7 +141,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: #00d1a0;
+  background-color: #3ccd90;
   border-radius: 3px;
   display: block;
   margin: auto;
@@ -291,7 +291,7 @@ body {
 }
 
 .leftcol img {
-  width: 550px;
+  width: 450px;
 }
 
 .rightcol {
@@ -303,8 +303,8 @@ body {
 
 .rightcol p {
   padding: 15px;
-  font-size: 18px;
-  font-weight: 520;
+  font-size: 24px;
+  font-weight: 480;
 }
 
 /* -------Upstart Edge------- */
@@ -810,15 +810,16 @@ body {
 }
 
 .eligleft img {
-  width: 80%;
+  width: 60%;
 }
 
 .eligp {
   text-align: left;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   padding-left: 52px;
   padding-right: 45px;
+  padding-bottom: 38px;
 }
 
 .eligright .info {
@@ -904,29 +905,42 @@ body {
 
 .Conditions .point h3{
   font-size: 18px;
+  
 }
 
 .one{
-  right: 70%;
+  right: 45%;
 }
 .two{
-  right: 45%;
+  right: 20%;
+  
 }
 .three{
-  right: 25%;
+  right: 4%;
 }
 .four{
-  right: 10%;
+  right: -2%;
+  
 }
 .five{
-  right: 25%;
+  right: -8%;
 }
 .six{
-  right: 45%;
+  right: -8%;
 }
 .seven{
-  right: 70%;
+  right: -2%;
 }
+.eight{
+  right: 4%;
+}
+.nine{
+  right: 20%;
+}
+.ten{
+  right: 45%;
+}
+
 
 
 /* Footer design  */
